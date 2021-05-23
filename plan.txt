@@ -12,6 +12,8 @@ Side Navigation
   ---
   [...options]
 List Item
+  no items
+  ---
   pet
   record
   date
@@ -24,4 +26,4 @@ Information (firebase)
   pet list
     records list
   user list
-    accessible pets list
+    accessible pets list (owner vs family)
