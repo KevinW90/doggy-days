@@ -1,0 +1,17 @@
+.screen-header {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+  background: #17A398;
+  color: white;
+
+  &__left, &__right {
+    height: 30px;
+  }
+
+  svg {
+    font-size: 30px;
+  }
+}

@@ -1,13 +1,12 @@
-import CustomSvg from './CustomSvg'
-
+import ScreenHeader from './ScreenHeader'
+import MenuIcon from '@material-ui/icons/MenuRounded';
 import DogFace from './custom-svgs/dog-face.svg'
-import AssignmentIcon from '@material-ui/icons/Assignment';
+import AddCircleIcon from '@material-ui/icons/AddCircleRounded';
 
 function App() {
   return (
     <div className="app">
-      <CustomSvg icon={DogFace} />
-      <CustomSvg icon={AssignmentIcon} />
+      <ScreenHeader left={MenuIcon} right={AddCircleIcon} />
     </div>
   );
 }
