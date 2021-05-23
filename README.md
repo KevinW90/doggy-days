@@ -1,12 +1,15 @@
-# DOOGY DAYS
+# DOGGY DAYS
 > A pet care app that allows a user to track information about their pet(s)
+
+[Figma Mocks](https://www.figma.com/file/k7gzfabCoQPkBAdfg7vuFl/Doggy-Days?node-id=2%3A342)
 
 ## MVP
 
-### `Sally`
-Sally (my dog) is the default animal
+### `Add a Pet`
 
-### `Information`
+### `View Pets`
+
+### `Create Record`
 
 _time_:
 The time the record was created
