@@ -1,12 +1,12 @@
 import { useEffect, useState } from 'react'
 
-import ScreenHeader from './ScreenHeader'
+import ScreenHeader from './components/ScreenHeader'
 import MenuIcon from '@material-ui/icons/MenuRounded';
-import DogFace from './custom-svgs/dog-face.svg'
+import DogFace from './assets/dog-face.svg'
 import AddCircleIcon from '@material-ui/icons/AddCircleRounded';
-import ListItem from './ListItem'
+import ListItem from './components/ListItem'
 
-import { pets } from './info'
+import { pets } from './js/info'
 
 import './app.css'
 

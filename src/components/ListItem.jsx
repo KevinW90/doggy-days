@@ -1,4 +1,4 @@
-import './list-item.scss'
+import '../styles/list-item.scss'
 
 function ListItem({ pet: { name, owner } }) {
   return (

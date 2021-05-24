@@ -1,5 +1,5 @@
 import CustomSvg from './CustomSvg'
-import './screen-header.scss'
+import '../styles/screen-header.scss'
 
 /**
  * A screen-header element for the app.
