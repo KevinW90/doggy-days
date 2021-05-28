@@ -1,39 +1,18 @@
 - Pages
-  - pet list (my pets)
-  - [add a pet]
-  - pet records
-  - add a record
-  - [view a record]
+  - My Pets
+  - Add Pet
+  - Pet Records
+  - Add Record
+  - View Record
 - Components
-  - ScreenHeader
-    - use the router props to determine ScreenHeader format (left, center, right)
-    - idea: { [ uiElement [, action ] ] }
-      - uiElem is optional for when the right does not have anything and will be filled in with a pet image after pet selection
-      - *add record state determines which image to display in ScreenHeader*
-      - action is optional because no action required for center text response
-        - { type, [uiElem], [action] }
-          - type options: icon, text, image, null
-          - icon, text, image -> uiElem is required
-          - icon -> action is required
-  - Form that gets the appropriate fields and displays them
-  - List Item
-    - pet item
-    - record item
-  - No Info
-    - if there is no info to display, the proper "no info" screen displays
-      - type, html
-        - type: any list (pets, records)
-        - html: what to display on the page
-          - usually in the format: *icon* | There are no <list-type> to display | *add button*
+  - Header
+    - left
+    - center
+    - right
+  - List
+  - Form
   - Button
-    - type
-      - link, submit
-=======================
-All pages look the same
-  Header
-  Content
-Page.jsx
-  <Header />
-  <Content />
-  ----
-  on load, look at router props to determine Components
+  - Icon
+  - Pet Item
+  - Record Item
+  - Date Item
