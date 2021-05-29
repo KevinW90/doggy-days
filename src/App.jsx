@@ -1,25 +1,23 @@
-import { BrowserRouter as Router } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import { ThemeProvider } from '@material-ui/styles';
-import Header from './components/Header'
-import MenuIcon from '@material-ui/icons/Menu';
-import AddCircleIcon from '@material-ui/icons/AddCircle';
+
 import { theme } from './themes/theme'
+
+import Pets from './pages/Pets'
+import Records from './pages/Records'
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
       <Router>
-        <Header
-          left={{
-            icon: MenuIcon
-          }}
-          center={{
-            text: 'My Pets'
-          }}
-          right={{
-            icon: AddCircleIcon
-          }}
-        />
+        <Switch>
+          <Route exact path="/">
+            <Pets />
+          </Route>
+          <Route path='/pet/:id'>
+            <Records />
+          </Route>
+        </Switch>
     </Router>
     </ThemeProvider>
     
