@@ -1,0 +1,39 @@
+export const pets = [
+  {
+    id: '1',
+    name: 'Sally',
+  },
+  {
+    id: '2',
+    name: 'Freyja',
+  }
+]
+
+export const records = [
+  {
+    id: '1',
+    time: '9:00am',
+    type: 'Every Day Activities',
+    petId: '1',
+    walk: {
+      value: true,
+      show: true
+    },
+    pee: {
+      value: true,
+      show: true
+    },
+    poo: {
+      value: false,
+      show: true
+    },
+    food: {
+      value: '1 cup',
+      show: true
+    },
+    notes: {
+      value: 'sluggish',
+      show: true
+    }
+  },
+]
