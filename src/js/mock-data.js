@@ -2,10 +2,12 @@ export const pets = [
   {
     id: '1',
     name: 'Sally',
+    recordCount: 3
   },
   {
     id: '2',
     name: 'Freyja',
+    recordCount: 1
   }
 ]
 
@@ -61,6 +63,44 @@ export const records = [
     },
     notes: {
       value: '',
+      show: true
+    }
+  },
+  {
+    id: '3',
+    time: '2:00pm',
+    date: 'Sun May 30, 2021',
+    type: 'Every Day Activities',
+    petId: '2',
+    walk: {
+      value: true,
+      show: true
+    },
+    pee: {
+      value: true,
+      show: true
+    },
+    poo: {
+      value: true,
+      show: true
+    },
+    food: {
+      value: '',
+      show: true
+    },
+    notes: {
+      value: '',
+      show: true
+    }
+  },
+  {
+    id: '4',
+    time: '6:00pm',
+    date: 'Mon May 31, 2021',
+    type: 'Medical',
+    petId: '1',
+    checkup: {
+      value: true,
       show: true
     }
   },

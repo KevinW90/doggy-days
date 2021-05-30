@@ -18,9 +18,8 @@ function App() {
             <Records />
           </Route>
         </Switch>
-    </Router>
+      </Router>
     </ThemeProvider>
-    
   )
 }
 
