@@ -36,4 +36,30 @@ export const records = [
       show: true
     }
   },
+  {
+    id: '2',
+    time: '2:00pm',
+    type: 'Every Day Activities',
+    petId: '1',
+    walk: {
+      value: true,
+      show: true
+    },
+    pee: {
+      value: true,
+      show: true
+    },
+    poo: {
+      value: true,
+      show: true
+    },
+    food: {
+      value: '',
+      show: true
+    },
+    notes: {
+      value: '',
+      show: true
+    }
+  },
 ]

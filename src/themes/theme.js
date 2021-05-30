@@ -27,6 +27,13 @@ export const theme = createMuiTheme({
       'Truculenta',
       'sans-serif'
     ].join(','),
-    iconSize: '1.875rem' // 30px for 1rem = 16px
+    iconSize: '1.875rem', // 30px for 1rem = 16px
+    subtitle1: {
+      fontSize: 16,
+      position: 'relative'
+    },
+    subtitle2: {
+      fontSize: 14
+    }
   },
 });
