@@ -9,6 +9,10 @@ html, body, #root {
   padding: 0;
 }
 
+body {
+  background: #F2F7F2;
+}
+
 .left-border {
   position: relative;
 }

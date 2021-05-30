@@ -12,6 +12,7 @@ export const pets = [
 export const records = [
   {
     id: '1',
+    date: 'Sun May 30, 2021',
     time: '9:00am',
     type: 'Every Day Activities',
     petId: '1',
@@ -39,6 +40,7 @@ export const records = [
   {
     id: '2',
     time: '2:00pm',
+    date: 'Sun May 30, 2021',
     type: 'Every Day Activities',
     petId: '1',
     walk: {
@@ -63,3 +65,8 @@ export const records = [
     }
   },
 ]
+
+export const forms = {
+  'Every Day Activities': '0,0,255',
+  Medical: '0,255,00'
+}
