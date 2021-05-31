@@ -2,12 +2,20 @@ export const pets = [
   {
     id: '1',
     name: 'Sally',
-    recordCount: 3
+    recordCount: 3,
+    color: 'rgb(255,0,0)'
   },
   {
     id: '2',
     name: 'Freyja',
-    recordCount: 1
+    recordCount: 1,
+    color: 'rgb(0,255,0)'
+  },
+  {
+    id: '3',
+    name: 'Niko',
+    recordCount: 0,
+    color: 'rgb(0,0,255)'
   }
 ]
 
@@ -107,6 +115,6 @@ export const records = [
 ]
 
 export const forms = {
-  'Every Day Activities': '0,0,255',
-  Medical: '0,255,00'
+  'Every Day Activities': 'rgb(80,0,80)',
+  Medical: 'rgb(0,80,80)'
 }
